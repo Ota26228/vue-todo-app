@@ -1,4 +1,4 @@
-# Logs
+# === ログファイル ===
 logs
 *.log
 npm-debug.log*
@@ -7,16 +7,21 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# === 依存ファイル ===
+node_modules/
+
+# === ビルド成果物 ===
+dist/
+dist-ssr/
 *.local
 
-# Editor directories and files
-.vscode/*
+# === エディター・IDE 設定 ===
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
+
+# === Visual Studio関連 ===
 *.suo
 *.ntvs*
 *.njsproj
